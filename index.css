@@ -1,0 +1,30 @@
+.main-container {
+	width: 100vw;
+	height: 100vh;
+}
+
+.search {
+	border: 1px solid #000;
+	width: 100%;
+	height: 25%;
+}
+
+.form-list-container {
+	border: 1px solid #000;
+	width: 100%;
+	height: 75%;
+	display: flex;
+	flex-direction: row;
+}
+
+.form {
+	border: 1px solid #000;
+	width: 50%;
+	height: 100%;
+}
+
+.list {
+	border: 1px solid #000;
+	width: 50%;
+	height: 100%;
+}
