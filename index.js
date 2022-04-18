@@ -11,14 +11,26 @@ const contacts = [
     },
 ];
 
-document.getElementById('display-contacts').innerHTML = JSON.stringify(contacts);
+document.getElementById('display-contacts').innerHTML = JSON.stringify(contacts, null, 2);
+
+// function addContact() {
 
 
 
-// window.onload = function() {
-// 	document.getElementById('display-contacts').innerHTML = Object.values(contacts);
 // }
-// document.getElementById("display-contacts").innerHTML = contacts.name;
+
+
+
+
+// let display = document.getElementById("display-contacts");
+// window.onload = function() {
+// 	let entry = "";
+// 	for (const contact in contacts) {
+// 		console.log(entry += contacts[contact]);
+// 	};
+// }
+	// document.getElementById('display-contacts').innerHTML = Object.values(contacts);
+
 
 // Display all existing contacts
 // function displayContacts() {
