@@ -21,16 +21,32 @@
 	border: 1px solid #000;
 	width: 50%;
 	height: 100%;
+	margin: 5px;
+	padding: 10px;
 }
 
 .list {
 	border: 1px solid #000;
 	width: 50%;
 	height: 100%;
+	margin: 5px;
+	padding: 10px;
 }
 
 h2 {
 	text-align: center;
 	color: blue;
 	font-size: 2em;
+}
+
+input {
+	margin: 10px 0;
+}
+
+#submit-btn {
+	color: white;
+	padding: 5px;
+	font-size: 1em;
+	font-weight: bolder;
+	background-color: gray;
 }
