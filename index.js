@@ -11,32 +11,27 @@ const contacts = [
     },
 ];
 
+const addContact = (e)=> {
+	let contact = {
+		name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        phone: document.getElementById('phone').value
+	}
+	contacts.push(contact);
+	document.getElementById('display-contacts').innerHTML = JSON.stringify(contacts, null, 2);
+	const inputs = document.querySelectorAll('#name, #email, #phone');
+	inputs.forEach(input => {
+		input.value = '';
+	});
+};   
+
+document.addEventListener('DOMContentLoaded', ()=> {
+	document.getElementById('submit-reset-btn').addEventListener('click', addContact);
+});
+
 document.getElementById('display-contacts').innerHTML = JSON.stringify(contacts, null, 2);
 
-// function addContact() {
 
-
-
-// }
-
-
-
-
-// let display = document.getElementById("display-contacts");
-// window.onload = function() {
-// 	let entry = "";
-// 	for (const contact in contacts) {
-// 		console.log(entry += contacts[contact]);
-// 	};
-// }
-	// document.getElementById('display-contacts').innerHTML = Object.values(contacts);
-
-
-// Display all existing contacts
-// function displayContacts() {
-// 	let book = document.getElementById('display.contacts');
-// 	book.textContent = contacts;
-// }
 
 // Display/Render the existing contacts
 // How to use the input values and create that contact object
