@@ -1,13 +1,13 @@
 const contacts = [
     {
-        name: 'Braxton',
-        email: 'braxton.toomer1@gmail.com',
-        phone: 7075834446
+        name: 'sample_contact_1',
+        email: 'sample_email_1',
+        phone: 1234567890
     },
     {
-        name: 'Kevin',
-        email: 'kw1017@gmail.com',
-        phone: 8582055523
+        name: 'sample_contact_2',
+        email: 'sample_email_2',
+        phone: 9876543210
     },
 ];
 
