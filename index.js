@@ -33,6 +33,3 @@ document.getElementById('display-contacts').innerHTML = JSON.stringify(contacts,
 
 
 
-// Display/Render the existing contacts
-// How to use the input values and create that contact object
-// How to push that object into the contacts array
